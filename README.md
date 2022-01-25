@@ -24,3 +24,17 @@ This repository contains exericises and notes I took taking the ML Zoomcamp prov
 * Tuning the Model
 * Using the Model
 
+### Logistic Regression for Classification: Churn Prediction
+* Read Data and initial Data Preparation
+* Setting up the Validation Framework
+* EDA
+* Feature Importance: Churn Rate and Risk Ratio
+* Feature Importance: Mutual Information
+* Feature Importance: Correlation
+* One-Hot Encoding
+* Logistic Regression
+* Training Logistic Regression with Scikit-Learn
+* Model Interpretation
+* Using the Model
+* Summary
+* Explre more
