@@ -24,6 +24,7 @@ This repository contains exericises and notes I took taking the ML Zoomcamp prov
 * Tuning the Model
 * Using the Model
 
+## Week 3
 ### Logistic Regression for Classification: Churn Prediction
 * Read Data and initial Data Preparation
 * Setting up the Validation Framework
