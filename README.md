@@ -37,4 +37,4 @@ This repository contains exericises and notes I took taking the ML Zoomcamp prov
 * Model Interpretation
 * Using the Model
 * Summary
-* Explre more
+* Explore more
