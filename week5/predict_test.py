@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-get_ipython().run_line_magic('autosave', '0')
 import requests
 
 url = "http://localhost:9696/predict"
