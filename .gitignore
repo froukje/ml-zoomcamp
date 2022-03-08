@@ -5,3 +5,5 @@ week3/.ipynb_checkpoints/Lecture_3_churn_prediction-checkpoint.ipynb
 week4/.ipynb_checkpoints/*
 week5/.ipynb_checkpoints/*
 week5/model_C=1.0.bin
+week5/__pycache__/
+week5/customer.JSON
