@@ -10,4 +10,10 @@ week5/__pycache__/
 week5/customer.JSON
 week6/.ipynb_checkpoints/Lecture_6_Decision_Trees_Ensemble_Learning-checkpoint.ipynb
 week6/.ipynb_checkpoints/
-midterm-project/.ipynb_checkpoints/*
+week7_midterm-project/.ipynb_checkpoints/*
+week7_midterm-project/__pycache__/*
+week7_midterm-project/xgb*
+week7_midterm-project/RandomForest*
+week7_midterm-project/RandomForest__n_est=190_max_depth=30_min_sample_weight=3.000.bin
+week7_midterm-project/RandomForest__n_est=220_max_depth=50_min_sample_weight=7.000.bin
+week7_midterm-project/xgb_n_est=250_eta=0.004_gamma=0.015_alpha=0.000_max_depth=35_min_child_weight=11.000.bin
