@@ -20,3 +20,10 @@ week7_midterm-project/xgb_n_est=250_eta=0.004_gamma=0.015_alpha=0.000_max_depth=
 week8/xception*
 week8/cnn_*
 week8/.ipynb_checkpoints/*
+week9/dogs_cats_10_0.687.h5
+week9/*.tflite
+week9/clothing-model.tflite
+week9/__pycache__/*
+week9/.ipynb_checkpoints/*
+week9/.ipynb_checkpoints/*
+week9/homework/__pycache__/*
