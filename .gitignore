@@ -29,4 +29,6 @@ week9/.ipynb_checkpoints/*
 week9/homework/__pycache__/*
 week10/.ipynb_checkpoints/*
 week10/clothing_model/*
-
+week10/__pycache__/
+week10/clothing-model/saved_model.pb
+week10/ping/__pycache__/
