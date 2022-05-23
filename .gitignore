@@ -32,3 +32,7 @@ week10/clothing_model/*
 week10/__pycache__/
 week10/clothing-model/saved_model.pb
 week10/ping/__pycache__/
+week11/istio-1.9.0/*
+week11/.ipynb_checkpoints/
+week11/quick_install.sh
+
