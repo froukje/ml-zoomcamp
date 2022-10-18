@@ -35,4 +35,7 @@ week10/ping/__pycache__/
 week11/istio-1.9.0/*
 week11/.ipynb_checkpoints/
 week11/quick_install.sh
-
+appendix/bento_ml/__pycache__/*
+appendix/bento_ml/.ipynb_checkpoints/*
+appendix/bento_ml/CreditScoring.csv.1
+appendix/bento_ml/CreditScoring.csv.2

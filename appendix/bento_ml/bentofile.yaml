@@ -1,5 +1,5 @@
 service: "service.py:svc"
-lables:
+labels:
   owner: bentoml-team
   project: gallery
 include:
