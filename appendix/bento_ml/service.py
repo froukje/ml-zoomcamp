@@ -18,7 +18,7 @@ class CreditApplication(BaseModel):
     price: int
 
 # reference a model, the tag 'latest' will pull the latest model
-model_ref = bentoml.xgboost.get("credit_risk_model:latest")
+model_ref = bentoml.xgboost.get("credit_risk_model:wkftxrsppsledn4h")
 dv = model_ref.custom_objects['dictVectorizer']
 
 # access the model
@@ -29,10 +29,10 @@ svc = bentoml.Service("credit_risk_classifier", runners=[model_runner])
 
 # the decoration allows us to call this endpoint using 'rest' and 'curl'
 @svc.api(input=JSON(pydantic_model=CreditApplication), output=JSON())
-def classify(credit_application):
+async def classify(credit_application):
     application_data = credit_application.dict()
     vector = dv.transform(application_data)
-    prediction = model_runner.predict.run(vector)
+    prediction = await model_runner.predict.async_run(vector)
 
     result = prediction[0]
     if result > 0.5:

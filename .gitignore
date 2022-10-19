@@ -39,3 +39,5 @@ appendix/bento_ml/__pycache__/*
 appendix/bento_ml/.ipynb_checkpoints/*
 appendix/bento_ml/CreditScoring.csv.1
 appendix/bento_ml/CreditScoring.csv.2
+appendix/bento_ml/CreditScoring.csv.3
+__pycache__/
