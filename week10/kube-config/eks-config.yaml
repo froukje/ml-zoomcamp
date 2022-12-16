@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: mlzoomcamp-eks
+  name: mlzoomcamp-eks2
   region: eu-west-1
 
 nodeGroups:

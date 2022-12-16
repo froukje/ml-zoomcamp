@@ -1,0 +1,21 @@
+ACCOUNT_ID=697020065496
+REGION=eu-west-1
+REGISTRY_NAME=mlzoomcamp-images
+PREFIX=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY_NAME}
+
+# tag images with remote name
+
+GATEWAY_LOCAL=zoomcamp-10-gateway:001
+GATEWAY_REMOTE=${PREFIX}:zoomcamp-10-gateway-001
+docker tag ${GATEWAY_LOCAL} ${GATEWAY_REMOTE}
+
+MODEL_LOCAL=zoomcamp-10-model:xception
+MODEL_REMOTE=${PREFIX}:zoomcamp-10-model-xception
+docker tag ${MODEL_LOCAL} ${MODEL_REMOTE}
+
+# login to aws
+$(aws ecr get-login --no-include-email)
+
+# push images
+docker push ${MODEL_REMOTE}
+docker push ${GATEWAY_REMOTE}
