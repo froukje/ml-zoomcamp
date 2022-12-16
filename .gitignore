@@ -40,4 +40,11 @@ appendix/bento_ml/.ipynb_checkpoints/*
 appendix/bento_ml/CreditScoring.csv.1
 appendix/bento_ml/CreditScoring.csv.2
 appendix/bento_ml/CreditScoring.csv.3
+appendix/bento_ml/appendix/deployment/terraform*
+appendix/bento_ml/appendix/deployment/.terraform*
+appendix/bento_ml/appendix/deployment/.terraform/*
+appendix/bento_ml/service_test.py
+appendix/bento_ml/deployment/.terraform.lock.hcl
+appendix/bento_ml/deployment/terraform.tfstate
+appendix/bento_ml/deployment/terraform.tfstate.backup
 __pycache__/

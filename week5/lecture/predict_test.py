@@ -3,7 +3,9 @@
 
 import requests
 
-url = "http://localhost:9696/predict"
+host = "churn-serving-env.eba-zkrywmjr.eu-west-1.elasticbeanstalk.com"
+url = f"http://{host}/predict"
+#url = "http://localhost:9696/predict"
 
 customer = {
     "gender": "female",
@@ -33,5 +35,6 @@ response = requests.post(url, json=customer).json()
 
 id = "xyz-123"
 if response["churn"] == True:
+    print(response)
     print(f"sending promo e-mail to {id}")
 

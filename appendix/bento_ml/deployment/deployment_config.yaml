@@ -1,0 +1,9 @@
+api_version: v1
+name: credit-risk-mlzoomcamp
+operator:
+  name: aws-lambda
+template: terraform
+spec:
+  region: us-west-1
+  timeout: 10
+  memory_size: 512

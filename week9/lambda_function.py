@@ -25,7 +25,7 @@ interpreter.allocate_tensors()
 input_index = interpreter.get_input_details()[0]['index']
 output_index = interpreter.get_output_details()[0]['index']
 
-# url = 'http://bit.ly/mlbookcamp-pants'
+#url = 'http://bit.ly/mlbookcamp-pants'
 
 def predict(url):
 

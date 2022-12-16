@@ -3,7 +3,7 @@ services:
   clothing-model:
           image: "zoomcamp-10-model:exception"
   gateway:
-    image: "zoomcamp-10-gateway:002"
+    image: "zoomcamp-10-gateway:001"
     environment:
       - TF_SERVING_HOST=clothing-model:8500
     ports:

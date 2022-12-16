@@ -1,0 +1,12 @@
+ACCOUNT=697020065496
+REGION=us-east-1
+REGISTRY=clothing-tflite-images
+PREFIX=${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY}
+TAG=clothing-model-xception-v4-001
+REMOTE_URI=${PREFIX}:${TAG}
+
+tag the docker image we created:
+docker tag clothing-model:latest ${REMOTE_URI}
+
+push the image to aws:
+docker push ${REMOTE_URI}

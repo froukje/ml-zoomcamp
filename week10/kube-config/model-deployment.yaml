@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tf-serving-clothing-model
-        image: zoomcamp-10-model:exception
+        image: zoomcamp-10-model:xception
         resources:
           limits:
             memory: "512Mi"
